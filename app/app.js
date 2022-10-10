@@ -45,7 +45,6 @@ function removeHeaders(cert) {
 
 module.exports.create = (config) => {
   const app = express();
-  const port = 8444;
 
   config = _.extend({}, config, {
     requestAcsUrl: config.acsUrls[0],
