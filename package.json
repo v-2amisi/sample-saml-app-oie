@@ -23,8 +23,7 @@
   "main": "./lib/main.js",
   "bin": "./bin/server.js",
   "scripts": {
-    "start": "node ./bin/server.js",
-    "postinstall": "node ./bin/server.js --idpMetaUrl https://discounttire-dev.oktapreview.com/app/exk1do2fx8tReZr3s0h8/sso/saml/metadata"
+    "start": "node ./bin/server.js --idpMetaUrl https://discounttire-dev.oktapreview.com/app/exk1do2fx8tReZr3s0h8/sso/saml/metadata"
   },
   "engines": {
     "node": ">=10.0.0"
